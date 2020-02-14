@@ -1,7 +1,13 @@
 body {
   background-color: #ecf0f1;
+  color: rgb(52, 73, 94);
 }
 
-h1 {
-  color: rgb(52, 73, 94);
+.form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
 }
