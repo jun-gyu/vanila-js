@@ -19,12 +19,13 @@ function paintToDo(text) {
   const delBtn = document.createElement("button");
   const span = document.createElement("span");
   const newId = toDos.length + 1;
-  delBtn.innerText = "Χ";
+  delBtn.innerText = "❌";
   delBtn.addEventListener("click", deleteToDo);
   li.appendChild(delBtn);
   li.appendChild(span);
   li.id = newId;
   toDoList.appendChild(li);
+
   const toDoObj = {
     text: text,
     id: newId
